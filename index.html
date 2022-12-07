@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="width=device-width, initial-scale=1.0">
+    <title>Lost Ark Character Tracker</title>
+
+    <link rel="sytlesheet" href="main.css" />
+</head>
+<body>
+    <Header>
+        <h1>Lost Ark Character Tracker</h1>
+        <form id="new-task-form">
+            <input
+                type="text"
+                id="new-task-input"
+                placeholder="Enter your character name" />
+            <input
+                type="submit"
+                id="new-task-submit"
+                value="Add Task" />
+        </form>
+    </Header>
+
+    <main>
+        <section class="Task list">
+            <h2>Tasks</h2>
+
+            <div id="Tasks">
+                <div class="content">
+                    <input
+                        type="text"
+                        class="text"
+                        value="My test task"
+                        readonly />
+                </div>
+
+                <div class="actions">
+                    <button class="edit">Edit</button>
+                    <button class="delete">Delete</button>
+                </div>
+                
+            </div>
+        </section>
+    </main>
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>
